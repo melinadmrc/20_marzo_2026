@@ -1,3 +1,4 @@
+// EJERCICIO CON PROFE
 const arreglo = [];
 const lista_de_pendientes = ["comida", "tarea", "lavar", "imprimir"];
 
@@ -38,16 +39,25 @@ console.log("Melina");
 
 //---------------
 // EJERCICIO 2 - ARREGLO DE COLORES
-// ARRAY → lista de colores en inglés
-const colores = ["red", "blue", "green", "yellow", "purple"];
+const colores = [];
 
-// FUNCIÓN → se ejecuta al hacer click
+// agregar valores posición - color
+colores[0] = "red";
+colores[1] = "blue";
+colores[2] = "green";
+colores[3] = "yellow";
+colores[4] = "purple";
+colores[5] = "black";
+colores[6] = "brown";
+
+console.log(colores);
+
 function cambiarColor() {
-  // POSICIÓN → elegimos el color (0, 1, 2, 3)
-  const posicion = 3;
 
-  // Cambia el fondo del body
+  const posicion = 4;
+
+  console.log(colores[posicion]);
+
+  // cambia color del background
   document.body.style.backgroundColor = colores[posicion];
 }
-console.log("Wiiii=)")
-
